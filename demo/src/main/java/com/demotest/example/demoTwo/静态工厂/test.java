@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class test {
     public static void main(String[] args){
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("静态工厂.xml");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("xml_bean/静态工厂.xml");
         Being b1 = applicationContext.getBean("dog",Being.class);
         b1.testBeing();
 

@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class test{
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("实例工厂.xml");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("xml_bean/实例工厂.xml");
 
         System.out.println("==================Chinese==================");
         Person p1 = (Person)applicationContext.getBean("chinese");
