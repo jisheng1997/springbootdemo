@@ -1,8 +1,8 @@
-package com.demotest.demo.service.impl;
+package com.demotest.example.demoOne.service.impl;
 
-import com.demotest.demo.domain.User;
-import com.demotest.demo.domain.UserRepository;
-import com.demotest.demo.service.UserService;
+import com.demotest.example.demoOne.domain.User;
+import com.demotest.example.demoOne.domain.UserRepository;
+import com.demotest.example.demoOne.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;

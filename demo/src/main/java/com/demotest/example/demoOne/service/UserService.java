@@ -1,6 +1,7 @@
-package com.demotest.demo.service;
+package com.demotest.example.demoOne.service;
 
-import com.demotest.demo.domain.User;
+import com.demotest.example.demoOne.domain.User;
+
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.demotest.demo.domain;
+package com.demotest.example.demoOne.domain;
 
 import org.springframework.data.annotation.Id;
 
@@ -10,6 +10,8 @@ import java.io.Serializable;
  *
  *  Create by jisheng on 02/07/2019
  */
+
+
 public class User implements Serializable {
 
 
@@ -22,6 +24,8 @@ public class User implements Serializable {
     private Integer age;
 
     private String birthday;
+
+    public User(){}
 
     public Long getId() {
         return id;

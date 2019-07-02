@@ -1,4 +1,4 @@
-package com.demotest.demo.domain;
+package com.demotest.example.demoOne.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
